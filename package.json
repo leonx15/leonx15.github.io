@@ -11,6 +11,7 @@
     "react-scripts": "5.0.1",
     "web-vitals": "^2.1.4"
   },
+  "homepage": "https://leonx15.github.io/storybook",
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
@@ -19,7 +20,8 @@
     "storybook": "storybook dev -p 6006",
     "build-storybook": "storybook build",
     "test-storybook": "test-storybook",
-    "chromatic": "npx chromatic --project-token=chpt_bbeba19ac0c1cbb"
+    "chromatic": "npx chromatic --project-token=chpt_bbeba19ac0c1cbb",
+    "deploy-storybook": "gh-pages -d storybook-static"
   },
   "eslintConfig": {
     "extends": [
@@ -53,6 +55,7 @@
     "@storybook/test": "^8.0.5",
     "@storybook/test-runner": "^0.17.0",
     "eslint-plugin-storybook": "^0.8.0",
+    "gh-pages": "^6.1.1",
     "prop-types": "^15.8.1",
     "storybook": "^8.0.5",
     "webpack": "^5.91.0"
